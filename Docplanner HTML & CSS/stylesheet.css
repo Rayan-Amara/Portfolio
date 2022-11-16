@@ -1,0 +1,359 @@
+body{
+	margin: 0px;
+	color: #b1b1b1;
+}
+header {
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	opacity: 0.9;
+	flex-wrap: wrap;
+	padding: 20px 0;
+}
+
+.link-header-special{
+	color: #00b3a8;
+}
+
+.logo{
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-tab-link .special {
+	color: #48c8b7;
+}
+
+.main-tab{
+	font-weight: 400;
+	font-size: 20px;
+	opacity: 1;
+}
+
+.header-span{
+	margin: 20px 15px;
+	opacity: 1;
+}
+
+.main-tab-link{
+	color: #b1b1b1;
+	text-decoration: none;
+}
+
+.main-tab-link:hover{
+	color: #48c8b7;
+	text-decoration: #48c8b7;
+}
+
+.link-header-special{
+	color: #00b3a8;
+}
+
+.main-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.presentation-div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap:wrap;
+}
+
+.logo-star{
+	width: 35px;
+}
+
+h1 {
+	color: #48c8b7;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.presentation-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.presentation {
+    width: 385px;
+    font-size: 20px;
+    margin: 20px 50px;
+    color: #747474;
+}
+
+.cards{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.card {
+    padding: 20px 0px 0px 45px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 28%;
+	max-width: 1015px;
+	min-width: 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.client-type {
+    color: white;
+    padding: 0px;
+    margin: 5px;
+}
+
+.cards-description{
+	color: white;
+}
+
+.country {
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.screen-image {
+    height: 255px;
+    padding-left: 145px;
+}
+
+.screen-image-container{
+	margin-top: 30px;
+	overflow: hidden;
+	padding-left:95px;
+}
+
+.for-doctors{
+	background-color: #3d83df;
+}
+
+.for-patients{
+	background-color: #00ccb1;
+}
+
+.for-doctors-screen{
+	padding-top: 50px;
+}
+
+.international-companies{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.global-culture{
+	font-size:25px;
+	width: 170px;
+}
+
+.companies-international{
+	list-style: none;
+	overflow-x: hidden;
+	white-space: nowrap;
+}
+
+li{
+	display: inline;
+	margin: 20px;
+}
+
+.company-logo{
+	fill: #747474;
+}
+
+.company-logo:hover {
+	fill: #48c8b7;
+}
+
+.green-section {
+    align-content: space-between;
+    background-color: #dff8f7;
+    width: 100%;
+    max-height: 100%;
+    background-image: url(https://www.docplanner.com/img/logo.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 20.0% 206%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.image-container{
+	display: flex;
+	justify-content: baseline;
+		
+}
+
+.presentation-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    overflow: hidden;
+    height: 495px;
+}
+
+.background-image {
+    height: 635px;
+}
+
+.g-section{
+	margin: 10px 0;
+}
+
+.presentation-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 725px;
+}
+
+.card-title{
+	color: #00b3a8;
+	font-size: 20px;
+}
+
+.description{
+	font-size: 15px;
+	color: #747474;
+}
+
+.presentation-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 225px;
+    padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.left-card-column{
+	padding-top: 10px
+}
+
+.right-card-column{
+	padding-bottom: 10px;
+}
+
+.country-openings{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+.introduction-openings{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+	
+}
+
+.openings-introduction-title{
+	width: 375px;
+	text-align: center;
+}
+
+.openings-introduction{
+	width: 430px;
+	text-align: center;
+}
+
+.country-openings-box-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 1000px;
+	min-width: 500px;
+}
+
+.country-openings-box{
+	width: 280px;
+	min-width: 50px;
+	border: 1px solid lightslategray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+
+.country-openings-box:hover{
+	box-shadow: 5px 5px 5px 5px grey;
+}
+
+.country-opening-link{
+	color: #747474;
+}
+
+.country-opening-link:visited{
+	color: #747474;
+}
+
+.town-opening-image{
+	width: 280px;
+}
+
+.see-openings-button{
+	background-color: #3d83df;
+	font-size: 10px;
+	color: white;
+	border: 1px solid #3d83df;
+	border-radius: 2px;
+	margin-bottom: 5px; 
+}
+
+.see-openings-button:hover{
+	filter: brightness(75%);
+}
+
+.opening-box-elements{
+	display: flex;
+	justify-content: space-between;
+	flex: wrap;
+	margin: 15px 5px;
+}
+
+.footer-link{
+	color: #3d83df;
+	text-decoration: none;
+}
+
+.footer-link:hover{
+	color: #3d83df;
+	text-decoration: #3d83df underline;
+}
+
+.footer-link:visited{color: #3d83df;}
+
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
